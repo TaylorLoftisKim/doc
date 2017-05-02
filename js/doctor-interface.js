@@ -2,8 +2,7 @@ var Doctor = require('./../js/doctor.js').doctorModule;
 
 $(document).ready(function() {
   var searchedDoctors = new Doctor();
-  $('#userLocation').submit(function() {
-    event.preventDefault();
+  $('#findDoctor').submit(function() {
     var illness = $('#illness').val();
     $('#illness').val("");
     $('#showDoctors').empty();
