@@ -4,12 +4,19 @@ body {
 
 .jumbotron {
  background-color: lightgreen;
+ border-color: black;
 }
 
 .well {
   background-color: lightgreen;
+  border-color: black;
+
 }
 
 .center {
   text-align: center;
+}
+
+input {
+  align-items: center;
 }

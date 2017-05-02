@@ -9,16 +9,18 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
-        <h1 class="center">Doctor App</h1>
+      <div class="well">
+        <h1 class="center"><strong>Doctor Finder</strong></h1>
+        <br>
+        <hr>
       </div>
       <div class="well">
-        <form id="userLocation">
+        <form>
           <div class="form-group">
-            <label for="location">Enter your Location:</label>
-            <br>
-            <input id="location" type="text" required="Please Enter Your Location">
-            <button class="btn btn-primary" id="user-location">Get Doctors!</button>
+            <h2 class="center">Enter your Illness</h2>
+            <hr>
+            <input class="center" id="illness" type="text" required="Please Enter Your Illness">
+            <button class="btn btn-primary" id="userLocation">Get Doctors!</button>
           </div>
         </form>
       </div>
@@ -26,7 +28,6 @@
         <h3 class="center">Doctors</h3>
         <hr>
         <div id="showDoctors">
-
         </div>
       </div>
     </div>
