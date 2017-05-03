@@ -8,7 +8,7 @@ Doctor.prototype.getDoctor = function(illness) {
   .then(function(output) {
     // Only pulling four parameters for Each Doctor
      output.data.forEach(function(doctor){
-      $('#showDoctors').append("<br><li> Name: " + doctor.profile.last_name + ", " + doctor.profile.first_name + " " + doctor.profile.title+ "<br> Bio: " + doctor.profile.bio + "</li><br>")
+      $('#showDoctors').append("<br><li><strong> Name:</strong> " + doctor.profile.last_name + ", " + doctor.profile.first_name + " " + doctor.profile.title + "<br><strong> Bio:</strong> " + doctor.profile.bio + "</li><br>")
      });
      console.log(output);
     })
